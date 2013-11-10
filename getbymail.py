@@ -25,8 +25,8 @@ from email.MIMEText import MIMEText
 mailaccount = 'cron@gmail.com'
 validsender = 'user@gmail.com>'
 password = 'cronpasswd'
-imapserver = imapserver # 'imap.gmail.com'
-smtpserver = smtpserver # 'smtp.gmail.com:587'
+imapserver = imapserver  # 'imap.gmail.com'
+smtpserver = smtpserver  # 'smtp.gmail.com:587'
 
 
 def printmessage(fullmessage):
@@ -58,13 +58,19 @@ def printmessage(fullmessage):
             elif command == 'downloadsite':
                 target = mailmessage['Subject'].split()[1]
                 print "Downloading site", target
+            elif command == 'shutdown':
+                target = mailmessage['Subject'].split()[1]
+                os.system('poweroff')
+                print "Shutting down"
             elif command == "help":
                 print "Sending help"
             else:
                 print "invalid command"
                 print command
+                sys.exit()
         else:
             print 'Invalid sender, ignoring message'
+            sys.exit()
         return zipfilename
 
 
