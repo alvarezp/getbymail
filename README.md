@@ -3,7 +3,7 @@ getbymail
 
 Scritp that check an email account for messages and can trigger actions acording to instructions in these messages
 
-I have plenty access to mail and google, but I can't browse Internet, due this I usually receive a bunch of links or I can search something in google, but I can't browse the google results, this is the reason to create a script that does the following:
+I have plenty access to mail and google, but I can't browse Internet. I usually receive a bunch of links that I'm unable to open. I can search terms on google, but I can't browse the google results, this was the reason to create a script that does the following:
 
 This script can be executed periodically in a server/pc, it will check an email account and open the older of all the unread messages, extract the commands on it and trigger an action.
 
