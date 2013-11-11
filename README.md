@@ -29,8 +29,8 @@ Meaning that if the subject is "downloadfile http://www.cadaver.me/presentation.
 To do
 =====
 
--Download "full" sites recursively.
+- Download "full" sites recursively.
 
--Read body of messages so It can receive multiple instructions in the same message.
+- Read body of messages so It can receive multiple instructions in the same message.
 
--Open all unread messages on a single execution.
+- Open all unread messages on a single execution.
