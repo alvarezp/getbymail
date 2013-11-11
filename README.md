@@ -19,11 +19,11 @@ It reads the subject of the message and search for two parameters, the first is 
 Commands
 --------
 
-   downloadfile = Download the file, compress it in a zip file and send it via email.
+   `downloadfile` = Download the file, compress it in a zip file and send it via email.
 
-   downloadpage = Download the page, compress it in a zip file and send it via email.
+   `downloadpage` = Download the page, compress it in a zip file and send it via email.
 
-Meaning that if the subject is "downloadfile http://www.cadaver.me/presentation.svg", it will download the file, will zip it and send it to the sender.
+Meaning that if the subject is `downloadfile http://www.cadaver.me/presentation.svg`, it will download the file, will zip it and send it to the sender.
 
 
 To do
