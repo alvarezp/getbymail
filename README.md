@@ -11,11 +11,13 @@ Right now it can only download a file or a web page, there is a lot to do.
 
 Even though right now this script works, it's in an early stage since I have some kind of recursive problem, I can't browse Internet to learn more python and then code this script, and I do not know enough python to code this script and then have access to Internet pages.
 
-Working:
+Working
+=======
 
 It reads the subject of the message and search for two parameters, the first is the command and the second is the URL.
 
- -Commands:
+Commands
+--------
 
    downloadfile = Download the file, compress it in a zip file and send it via email.
 
@@ -24,7 +26,8 @@ It reads the subject of the message and search for two parameters, the first is 
 Meaning that if the subject is "downloadfile http://www.cadaver.me/presentation.svg", it will download the file, will zip it and send it to the sender.
 
 
-To do:
+To do
+=====
 
 -Download "full" sites recursively.
 
