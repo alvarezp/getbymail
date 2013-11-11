@@ -1,7 +1,7 @@
 getbymail
 =========
 
-Script that check an email account for messages and can trigger actions according to instructions in these messages.
+Script that checks an email account for messages and can trigger actions according to instructions in these messages.
 
 I have plenty access to mail and Google, but I can't browse Internet. I usually receive a bunch of links that I'm unable to open. I can search terms on Google, but I can't browse the Google results, this was the reason to create a script that does the following:
 
@@ -14,7 +14,7 @@ Even though right now this script works, it's in an early stage since I have som
 Working
 =======
 
-It reads the subject of the message and search for two parameters, the first is the command and the second is the URL.
+It reads the subject of the message and searches for two parameters, the first is the command and the second is the URL.
 
 Commands
 --------
@@ -31,6 +31,6 @@ To do
 
 - Download "full" sites recursively.
 
-- Read body of messages so It can receive multiple instructions in the same message.
+- Read body of messages so it can receive multiple instructions in the same message.
 
 - Open all unread messages on a single execution.
